@@ -8,22 +8,17 @@
             </div>
             <div>
                 <!-- modify this form HTML and place wherever you want your form -->
-                <form
+                <form id="my-form"
                   action="https://formspree.io/xvowlabg"
                   method="POST"
                 >
-                  <label>
-                    Your email:
-                    <input type="text" name="_replyto">
-                  </label>
-                  <label>
-                      Your phone number:
-                      <input type="tel" name="_phoneNo">
-                  </label>
-                  <label>
-                    Your message:
-                    <textarea name="message"></textarea>
-                  </label>
+                  <label>Email:</label>
+                  <input type="email" name="email" />
+                  <label>Message:</label>
+                  <input type="text" name="message" />
+                  <button id="my-form-button">Submit</button>
+                  <p id="my-form-status"></p>
+                </form>
 
                   <!-- your other form fields go here -->
 
